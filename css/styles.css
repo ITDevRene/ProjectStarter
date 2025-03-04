@@ -1,6 +1,6 @@
 
 nav {
-    text-align: center;
+    display: block;
 }
 
 a {
@@ -9,10 +9,13 @@ a {
 }
 
 a.navegation {
+
+    display: inline;
     color: white;
     line-height: 200%;
     padding: 0 100px 0 0;
 }
+
 
 p {
 
@@ -23,7 +26,7 @@ p {
 
 li {
 
-    display: inline-block;
+    display: block;
 }
 
 nav {
@@ -83,7 +86,7 @@ h1 {
 } */
 
 .grid {
-
-    display:grid;
-    grid-template-columns: 50px 50px;
+    display: grid;
+    grid-template-columns: 15% 15%;
+    gap: 1%;
 }
