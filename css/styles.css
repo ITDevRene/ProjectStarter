@@ -73,4 +73,17 @@ h1 {
     color: brown;
 }
 
+.current {
+    text-transform: uppercase;
+    background-color: red;
+    line-height: 200%;
+    padding: 0 100px 0 0;}
+/* a[href*='e'] {
+    background-color: red;
+} */
 
+.grid {
+
+    display:grid;
+    grid-template-columns: 50px 50px;
+}
